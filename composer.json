@@ -1,0 +1,25 @@
+{
+    "name": "adelfenin/otus-task",
+    "description": "hw1-4",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Adelfenin\\OtusTask\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "url": "https://github.com/AdelFenin/otus-task.git",
+            "type": "git"
+        }
+    ],
+    "authors": [
+        {
+            "name": "fav",
+            "email": "a.fenin@soglasie.ru"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    }
+}
